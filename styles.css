@@ -1,6 +1,6 @@
 /* Body Class - Subtle background color */
 .body-class {
-    background-color: #f4f4f4; /* Light gray background */
+    background-color: #fffff0; /* **Very light yellow** background */
     font-family: Arial, sans-serif; /* Accessible and readable font */
     color: #333; /* Dark text for good contrast */
     margin: 0;
@@ -29,7 +29,7 @@
 
 .nav-link-class:hover,
 .nav-link-class.active {
-    font-weight: bold; /* Bold the active page link */
+    font-weight: bold; /* **Bold** the active page link */
 }
 
 /* Title and Section Title Classes - Apply distinct colors */
@@ -141,4 +141,27 @@ a:focus,
     .footer-class {
         font-size: 14px; /* Slightly smaller footer text */
     }
+}
+
+/* **Additional Styles for Bold and Red Text** */
+
+/* Bold Text */
+strong, b {
+    font-weight: bold; /* **Bold text** */
+}
+
+/* Red Text for Specific Words */
+.red-text {
+    color: red; /* **Red color** */
+}
+
+/* Light Yellow Background for Sections */
+.light-yellow-background {
+    background-color: #fffff0; /* **Very light yellow** background */
+}
+
+/* Bold and Red Text Combined */
+.bold-red-text {
+    font-weight: bold;
+    color: red; /* **Bold and red text** */
 }
